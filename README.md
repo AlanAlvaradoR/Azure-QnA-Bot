@@ -44,4 +44,4 @@ Creación de Bot para QnA en Azure
 
 13. Se da click en "Add QnA Pair"
 
-14. 
+14. Se abrirá 

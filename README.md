@@ -44,4 +44,38 @@ Creación de Bot para QnA en Azure
 
 13. Se da click en "Add QnA Pair"
 
-14. Se abrirá 
+14. Se abrirá una nueva pregunta en la parte inferior, en el lado izquierdo se debe escribir la pregunta, frase u oración que se espera que diga el usuario, del lado derecho se debe poner la respuesta que debe dar el bot.
+
+**NOTA:** Si hay varias opciones al texto que manda el usuario, se puede dar click en "Add alternative phrasing" para agregar más opciones del mismo texto o que lleven la misma respuesta.
+
+15. Si se desea agregar más preguntas y respuestas diferentes, se repiten los pasos 13 y 14. También se pueden agregar links clickeables e imagenes de la web a la respuestas del bot por medio del botón de tres puntos.
+
+16. Una vez se hayan terminado de redactar todas las respuestas y preguntas, se da click en "Save and train" en la parte superior. Se espera a que termine.
+
+**NOTA:** Si se modifica alguna pregunta o respuestas, siempre es necesario repetir el paso 16 para que los cambios surtan efecto.
+
+17. Si se desea probar el funcionamiento antes de ponerlo a funcionar, se da click en "Test" en la parte superior derecha y se iniciará una conversación de prueba con el bot.
+
+18. Dentro de la conversación de prueba con el bot, se pueden identificar fallos en respuestas, al detectar preguntar y más. Si se desea analizar una pregunta o texto en especial introducido por el usuario, se da click en "Inspect" debajo del texto en cuestión para ver sus detalles.
+
+19. Una vez que se ha probado y se detemrina que esta listo, se da click en la pestaña superior "Publish" y después en el botón "Publish".
+
+20. Se dará instrucciones para usarlo por medio de un https, si se desea se puede usar mediante un recurso de Azure al hacer click en "Create Bot".
+
+21. Se abrirá el portal de Azure donde se deben llenar los parámetros requeridos y seleccionar el idioma del SDK (C# o Node.js) y se da click en "Crear"
+
+**NOTA:** Si no deja crear el recurso, es probable que sea error de Azure, se debe seleccionar de nuevo la suscripción o recargar de nuevo la página para poder proseguir.
+
+22. Si se desea modificar alguna pregunta o respuesta, se puede ir de nuevo a la página de [QnA de Azure](https://www.qnamaker.ai/), buscar el "Knowledge base" que nos interese, seleccionarlo, modificar lo que se necesite, darle click en "Save and train" y luego en "Publish".
+
+23. En el portal de Azure al finalizar la implementación de los recursos se mostrará un menú como el siguiente y se da click en "ir al recurso"
+
+![QnA4](https://github.com/AlanAlvaradoR/Azure-QnA-Bot/blob/main/imagenes/QnA4.PNG)
+
+24. Después se selecciona en el menú lateral izquierdo "probar en el chat en web" para probar el buen funcionamiento del bot por medio de un chat de prueba.
+
+**NOTA:** Si por alguna razón no funciona la primera vez, es necesario volver a crear un nuevo recurso de Azure para el bot y repetir la configuración en el portal de Azure.
+
+25. Una vez se prueba el buen funcionamiento, se da click en el menú lateral izquierdo en "Canales", desde aquí se puede conectar el bot con diferentes plataformas (Telegram, instagram, facebook, etc.), se selecciona la plataforma que se quiera y se siguen los pasos allí estipulados para ocnectar el bot.
+
+
